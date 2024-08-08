@@ -1,0 +1,888 @@
+[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m[31mF[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m[31mF[0m[31mF[0m
+
+Failures:
+
+  1) BookmarksController should exist
+     [31mFailure/Error: expect(defined?(Bookmarks)).to eq(true)[0m
+     [31m[0m
+     [31m  expected: true[0m
+     [31m       got: nil[0m
+     [31m[0m
+     [31m  (compared using ==)[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-support-3.13.1/lib/rspec/support.rb:110:in `block in <module:Support>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-support-3.13.1/lib/rspec/support.rb:119:in `notify_failure'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/fail_with.rb:35:in `fail_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:38:in `handle_failure'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:56:in `block in handle_matcher'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:27:in `with_matcher'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:48:in `handle_matcher'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/expectation_target.rb:65:in `to'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/expectation_target.rb:101:in `to'[0m
+     [36m# ./spec/controllers/bookmarks_controller_spec.rb:75:in `block (2 levels) in <top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/example/controller_example_group.rb:192:in `block (2 levels) in <module:ControllerExampleGroup>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  2) ListsController should exist
+     [31mFailure/Error: expect(defined?(ListsController)).to eq(true)[0m
+     [31m[0m
+     [31m  expected: true[0m
+     [31m       got: nil[0m
+     [31m[0m
+     [31m  (compared using ==)[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-support-3.13.1/lib/rspec/support.rb:110:in `block in <module:Support>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-support-3.13.1/lib/rspec/support.rb:119:in `notify_failure'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/fail_with.rb:35:in `fail_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:38:in `handle_failure'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:56:in `block in handle_matcher'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:27:in `with_matcher'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:48:in `handle_matcher'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/expectation_target.rb:65:in `to'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/expectation_target.rb:101:in `to'[0m
+     [36m# ./spec/controllers/lists_controller_spec.rb:79:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/example/controller_example_group.rb:192:in `block (2 levels) in <module:ControllerExampleGroup>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  3) Bookmark has a comment
+     [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+     [31m[0m
+     [31mArgumentError:[0m
+     [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+     [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+     [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+     [36m# ./spec/models/bookmark_spec.rb:29:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  4) Bookmark comment cannot be shorter than 6 characters
+     [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+     [31m[0m
+     [31mArgumentError:[0m
+     [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+     [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+     [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+     [36m# ./spec/models/bookmark_spec.rb:34:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  5) Bookmark belongs to a movie
+     [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+     [31m[0m
+     [31mArgumentError:[0m
+     [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+     [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+     [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+     [36m# ./spec/models/bookmark_spec.rb:39:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  6) Bookmark belongs to an list
+     [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+     [31m[0m
+     [31mArgumentError:[0m
+     [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+     [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+     [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+     [36m# ./spec/models/bookmark_spec.rb:44:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  7) Bookmark movie cannot be blank
+     [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+     [31m[0m
+     [31mArgumentError:[0m
+     [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+     [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+     [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+     [36m# ./spec/models/bookmark_spec.rb:51:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  8) Bookmark list cannot be blank
+     [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+     [31m[0m
+     [31mArgumentError:[0m
+     [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+     [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+     [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+     [36m# ./spec/models/bookmark_spec.rb:58:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  9) Bookmark is unique for a given movie/list couple
+     [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+     [31m[0m
+     [31mArgumentError:[0m
+     [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+     [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+     [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+     [36m# ./spec/models/bookmark_spec.rb:63:in `block (2 levels) in <main>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+     [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  10) List has many bookmarks
+      [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+      [31m[0m
+      [31mArgumentError:[0m
+      [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+      [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+      [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `const_get'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:316:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/string/inflections.rb:87:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:257:in `block in compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `each'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:468:in `compute_class'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:412:in `klass'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:713:in `automatic_inverse_of'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `block in inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `fetch'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:625:in `has_inverse?'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:256:in `check_validity_of_inverse!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:569:in `check_validity!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/association.rb:42:in `initialize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `new'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `association'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/builder/association.rb:104:in `bookmarks'[0m
+      [36m# ./spec/models/list_spec.rb:33:in `block (2 levels) in <main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  11) List has many movies
+      [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+      [31m[0m
+      [31mArgumentError:[0m
+      [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+      [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+      [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `const_get'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:316:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/string/inflections.rb:87:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:257:in `block in compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `each'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:468:in `compute_class'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:412:in `klass'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:951:in `source_reflection'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:1091:in `check_validity!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/association.rb:42:in `initialize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/has_many_through_association.rb:10:in `initialize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `new'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `association'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/builder/association.rb:104:in `movies'[0m
+      [36m# ./spec/models/list_spec.rb:39:in `block (2 levels) in <main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  12) List should destroy child saved movies when destroying self
+      [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+      [31m[0m
+      [31mArgumentError:[0m
+      [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+      [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+      [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `const_get'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:316:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/string/inflections.rb:87:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:257:in `block in compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `each'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:468:in `compute_class'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:412:in `klass'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:713:in `automatic_inverse_of'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `block in inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `fetch'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:625:in `has_inverse?'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:256:in `check_validity_of_inverse!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:569:in `check_validity!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/association.rb:42:in `initialize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `new'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `association'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/builder/association.rb:104:in `bookmarks'[0m
+      [36m# ./spec/models/list_spec.rb:47:in `block (2 levels) in <main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  13) Movie overview cannot be blank
+      [31mFailure/Error: expect(movie).not_to be_valid[0m
+      [31m  expected #<Movie id: nil, title: "Titanic", overview: nil, poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SF...", rating: 7.9, created_at: nil, updated_at: nil> not to be valid[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-support-3.13.1/lib/rspec/support.rb:110:in `block in <module:Support>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-support-3.13.1/lib/rspec/support.rb:119:in `notify_failure'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/fail_with.rb:35:in `fail_with'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:40:in `handle_failure'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:84:in `block in handle_matcher'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:27:in `with_matcher'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/handler.rb:76:in `handle_matcher'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/expectation_target.rb:78:in `not_to'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-expectations-3.13.1/lib/rspec/expectations/expectation_target.rb:106:in `not_to'[0m
+      [36m# ./spec/models/movie_spec.rb:36:in `block (2 levels) in <main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  14) Movie has many bookmarks
+      [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+      [31m[0m
+      [31mArgumentError:[0m
+      [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+      [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+      [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `const_get'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:316:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/string/inflections.rb:87:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:257:in `block in compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `each'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:468:in `compute_class'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:412:in `klass'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:713:in `automatic_inverse_of'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `block in inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `fetch'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:625:in `has_inverse?'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:256:in `check_validity_of_inverse!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:569:in `check_validity!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/association.rb:42:in `initialize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `new'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `association'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/builder/association.rb:104:in `bookmarks'[0m
+      [36m# ./spec/models/movie_spec.rb:42:in `block (2 levels) in <main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+  15) Movie should not be able to destroy self if has bookmarks children
+      [31mFailure/Error: validate :comment, length: { minimum: 6, too_short: "%{count} characters is the minimum allowed" }[0m
+      [31m[0m
+      [31mArgumentError:[0m
+      [31m  Unknown key: :length. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:177:in `block in validate'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `each_key'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activemodel-7.1.3.4/lib/active_model/validations.rb:175:in `validate'[0m
+      [36m# ./app/models/bookmark.rb:7:in `<class:Bookmark>'[0m
+      [36m# ./app/models/bookmark.rb:1:in `<main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:26:in `require'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `const_get'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:316:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/string/inflections.rb:87:in `safe_constantize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:257:in `block in compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `each'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/inheritance.rb:256:in `compute_type'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:468:in `compute_class'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:412:in `klass'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:713:in `automatic_inverse_of'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `block in inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `fetch'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:701:in `inverse_name'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:625:in `has_inverse?'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:256:in `check_validity_of_inverse!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/reflection.rb:569:in `check_validity!'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/association.rb:42:in `initialize'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `new'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations.rb:320:in `association'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.1.3.4/lib/active_record/associations/builder/association.rb:104:in `bookmarks'[0m
+      [36m# ./spec/models/movie_spec.rb:48:in `block (2 levels) in <main>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:263:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `block in with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `block in with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `block in run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:626:in `block in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-rails-6.1.3/lib/rspec/rails/adapters.rb:75:in `block (2 levels) in <module:MinitestLifecycleAdapter>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:457:in `instance_exec'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:390:in `execute_with'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:628:in `block (2 levels) in run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:352:in `call'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:629:in `run_around_example_hooks_for'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/hooks.rb:486:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:468:in `with_around_example_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:511:in `with_around_and_singleton_context_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example.rb:259:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:646:in `block in run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:642:in `run_examples'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/example_group.rb:607:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `map'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/configuration.rb:2091:in `with_suite_hooks'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:116:in `block in run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/reporter.rb:74:in `report'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:115:in `run_specs'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:89:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:71:in `run'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/lib/rspec/core/runner.rb:45:in `invoke'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rspec-core-3.13.0/exe/rspec:4:in `<top (required)>'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `load'[0m
+      [36m# /Users/nkmatsumoto/.rbenv/versions/3.1.2/bin/rspec:25:in `<main>'[0m
+
+Finished in 0.08061 seconds (files took 0.5928 seconds to load)
+[31m21 examples, 15 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/bookmarks_controller_spec.rb:74[0m [36m# BookmarksController should exist[0m
+[31mrspec ./spec/controllers/lists_controller_spec.rb:78[0m [36m# ListsController should exist[0m
+[31mrspec ./spec/models/bookmark_spec.rb:28[0m [36m# Bookmark has a comment[0m
+[31mrspec ./spec/models/bookmark_spec.rb:33[0m [36m# Bookmark comment cannot be shorter than 6 characters[0m
+[31mrspec ./spec/models/bookmark_spec.rb:38[0m [36m# Bookmark belongs to a movie[0m
+[31mrspec ./spec/models/bookmark_spec.rb:43[0m [36m# Bookmark belongs to an list[0m
+[31mrspec ./spec/models/bookmark_spec.rb:48[0m [36m# Bookmark movie cannot be blank[0m
+[31mrspec ./spec/models/bookmark_spec.rb:55[0m [36m# Bookmark list cannot be blank[0m
+[31mrspec ./spec/models/bookmark_spec.rb:62[0m [36m# Bookmark is unique for a given movie/list couple[0m
+[31mrspec ./spec/models/list_spec.rb:30[0m [36m# List has many bookmarks[0m
+[31mrspec ./spec/models/list_spec.rb:36[0m [36m# List has many movies[0m
+[31mrspec ./spec/models/list_spec.rb:45[0m [36m# List should destroy child saved movies when destroying self[0m
+[31mrspec ./spec/models/movie_spec.rb:32[0m [36m# Movie overview cannot be blank[0m
+[31mrspec ./spec/models/movie_spec.rb:39[0m [36m# Movie has many bookmarks[0m
+[31mrspec ./spec/models/movie_spec.rb:45[0m [36m# Movie should not be able to destroy self if has bookmarks children[0m
+
