@@ -1,4 +1,4 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= image_path("out-2.webp") %>)">
   <div class="container">
     <h1>Movie Lists</h1>
     <br>
@@ -6,10 +6,10 @@
   </div>
 </div>
 
-<div class="cards">
+<div class="cards mt-3">
   <% @lists.each do |list| %>
-     <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-     <%= link_to list.name, list_path(list), class: "text-decoration-none" %>
+     <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.movies.any? ? image_path(list.movies.first.poster_url) : image_path('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQDYau3Hs4-xw1i8jVSUY4BlF4FLmg8lQqg&usqp=CAU') %>)">
+     <%= link_to list.name, list_path(list), class: "text-decoration-none link-light" %>
      </div>
   <% end %>
 </div>
