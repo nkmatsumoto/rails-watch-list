@@ -15,3 +15,7 @@ class List < ApplicationRecord
     end
   end
 end
+
+def list_id
+  rails_watch_list_lists_id
+end
